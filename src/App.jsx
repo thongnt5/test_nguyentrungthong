@@ -70,7 +70,7 @@ function App() {
     const updatedTasks = tasks.filter((task) => task.id !== taskId);
     setTasks(updatedTasks);
   };
-  
+
   const clearCompletedTasks = () => {
     const updatedTasks = tasks.filter((task) => !task.completed);
     setTasks(updatedTasks);
@@ -109,7 +109,7 @@ function App() {
               </Button>
             </div>
             <hr></hr>
-            <div className="todo-input">
+            <div className={`todo-input ${filter === "completed" ? "d-none" : ""}`}>
               <Form>
                 <InputGroup className="input-task">
                   <FormControl
