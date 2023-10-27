@@ -1,0 +1,127 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Mooli', sans-serif;
+}
+body{
+  min-height: 100vh !important;
+  background: #489cc1 !important;
+  display: inline !important;
+}
+.container{
+  max-width: 550px !important;
+    background-color: white !important ;
+    margin: 0 auto !important;
+    margin-top: 50px !important;
+    padding: 10px 30px !important;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px !important;
+    border-radius: 10px !important;
+    border: 1px solid #d2d2d2 !important;
+}
+
+h2{
+  margin-left: 190px;
+}
+.tab-center{
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+.tab-center button{
+  margin-left: 70px;
+}
+.tab-center button:hover{
+  border: none !important;
+  border-bottom: royalblue !important;
+}
+.todo-input{
+  margin-top: 35px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.input-task .task-value{
+  height: 33px;
+  width: 390px;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px;
+  border: 1px solid;
+}
+.input-task .task-value::after{
+  height: 33px;
+  width: 386px;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 5px !important;
+  border: 1px solid !important;
+}
+.btn-task{
+  background-color: #0084f5;
+    color: white;
+    height: 37px;
+    margin-left: 20px;
+}
+.list-group{
+  margin-top: 15px;
+  margin-left: 15px;
+}
+.checkbox-completed{
+  margin-right: 10px;
+}
+.list-group-item {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  background: #f0f9ff;
+  border-top: 1px solid #ebedee;
+  border-bottom: 1px solid #ebedee;
+}
+.btn-delete{
+  background-color: #f0f9ff;
+  color: rgb(204, 229, 240);
+}
+.btn-delete:hover {
+  background-color: #eee !important;
+}
+
+.btn-delete:active {
+  background-color: #ddd !important;
+}
+.btn-delete:hover {
+  background-color: #eee ;
+}
+
+.list-group-item:active {
+  background-color: #ddd;
+}
+.list-group li{
+  list-style: none;
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
+
+
+.btn-delete-all{
+  background-color: red;
+  color: white;
+  margin-left: 368px;
+  margin-top: 15px;
+}
+.d-none{
+  display: none;
+}
+.active {
+  background-color: #007bff;
+  border: 1px solid #007bff;
+  color: #fff;
+  text-decoration: underline;
+}
